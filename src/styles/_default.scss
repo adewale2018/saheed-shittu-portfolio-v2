@@ -1,0 +1,129 @@
+$color-primary: #eb2f64;
+$color-secondary: #FF3366;
+$color-secondary-2: #BA265D;
+
+$color-white: #fff;
+$color-white-1: #eee;
+$color-dark: #000;
+$color-black: #000;
+
+$color-second-dark: #272727;
+$color-grey-dark: #777;
+
+//Box Shadows
+$box-shadow-1: 0 1.5rem 4rem rgba($color-dark, 0.15);
+// Font SIZE
+$default-font-size: 1.6rem;
+
+// Media query
+
+$bp-largest: 79.375em; // 1270px
+$bp-larger: 68.75em; // 1100px
+// $bp-medium: 50.125em; // 800px
+$bp-smallest: 36.25em; // 500px
+
+
+//Animations
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+    -webkit-transform: translateX(-10rem);
+    -moz-transform: translateX(-10rem);
+    -ms-transform: translateX(-10rem);
+    -o-transform: translateX(-10rem);
+  }
+
+  80% {
+    transform: translateX(1rem);
+    -webkit-transform: translateX(1rem);
+    -moz-transform: translateX(1rem);
+    -ms-transform: translateX(1rem);
+    -o-transform: translateX(1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+    -webkit-transform: translate(0);
+    -moz-transform: translate(0);
+    -ms-transform: translate(0);
+    -o-transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+    -webkit-transform: translateX(10rem);
+    -moz-transform: translateX(10rem);
+    -ms-transform: translateX(10rem);
+    -o-transform: translateX(10rem);
+  }
+
+  80% {
+    transform: translateX(-1rem);
+    -webkit-transform: translateX(-1rem);
+    -moz-transform: translateX(-1rem);
+    -ms-transform: translateX(-1rem);
+    -o-transform: translateX(-1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+    -webkit-transform: translate(0);
+    -moz-transform: translate(0);
+    -ms-transform: translate(0);
+    -o-transform: translate(0);
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem);
+    -webkit-transform: translateY(3rem);
+    -moz-transform: translateY(3rem);
+    -ms-transform: translateY(3rem);
+    -o-transform: translateY(3rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+    -webkit-transform: translate(0);
+    -moz-transform: translate(0);
+    -ms-transform: translate(0);
+    -o-transform: translate(0);
+  }
+}
+
+
+/*
+#99703F;
+#DAA972;
+#8F5E1E;
+#D39952;
+#AC9980;
+#AA6817;
+#7E7365;
+#CF8F2E;
+#ccc;
+
+
+#eb2f64;
+#FF3366;
+#BA265D;
+
+#faf9f9;
+#f4f2f2;
+#f0eeee;
+#ccc;
+
+#333;
+#777;
+#999;
+*/

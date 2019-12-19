@@ -1,0 +1,28 @@
+.SocialMedia {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 15rem;
+}
+
+.SocialMedia>* {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  padding: 0 2rem;
+}
+
+.SocialMedia>*:hover {
+  text-decoration: none;
+  color: #FF3366;
+  background-color: #fff;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.SocialMedia a i {
+  color: #000;
+  margin-left: .7rem;
+}

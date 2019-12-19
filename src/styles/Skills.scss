@@ -1,0 +1,70 @@
+@import "default";
+
+.Skills {
+  color: $color-dark;
+  background-image: linear-gradient(to right bottom,
+    rgba($color-primary, 1),
+    rgba($color-secondary, 1));
+  background-size: cover;
+  background-position: top;
+  
+  &__container-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem;
+    box-shadow: 0 0 10px $color-dark;
+    @media only screen and (max-width: $bp-smallest) {
+      padding: 2rem 0;
+    }
+
+    &-1 {
+      margin-right: 4rem;
+      margin-left: 4rem;
+      margin-bottom: 5rem;
+      width: 130px;
+      height: 150px;
+
+      @media only screen and (max-width: $bp-smallest) {
+        margin-right: 3rem;
+        margin-left: 3rem;
+        margin-bottom: 3.5rem;
+      }
+
+      & img {
+        width: 80%;
+        height: 70%;
+        border: 1px solid $color-second-dark;
+        text-align: center;
+        border-radius: 10%;
+        -webkit-border-radius: 10%;
+        -moz-border-radius: 10%;
+        -ms-border-radius: 10%;
+        -o-border-radius: 10%;
+        box-shadow: 0 0 10px $color-dark;
+        transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        
+        &:hover  {
+          transform: scale(1.25);
+          -webkit-transform: scale(1.25);
+          -moz-transform: scale(1.25);
+          -ms-transform: scale(1.25);
+          -o-transform: scale(1.25);
+        }
+      }
+      & h2 {
+        color: $color-white;
+        margin-top: 1.5rem;
+        letter-spacing: .4rem;
+        text-transform: uppercase;
+        font-weight: 300;
+      }
+    }
+  }
+}
