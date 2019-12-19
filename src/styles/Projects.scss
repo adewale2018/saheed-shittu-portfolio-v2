@@ -1,0 +1,65 @@
+@import "default";
+
+.Projects {
+  min-height: 89vh;
+  color: $color-dark;
+  background-image: linear-gradient(to right bottom,
+      rgba($color-primary, 1),
+      rgba($color-secondary, 1));
+  background-size: cover;
+  background-position: top;
+
+  &__container-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem;
+    box-shadow: 0 0 10px $color-dark;
+  }
+}
+
+.card {
+  border: 1px solid #fff;
+  padding: .5rem 0;
+  text-align: center;
+  height: 65rem;
+  width: 33rem;
+  margin: 0 3rem 4rem 3rem;
+  box-shadow: 0 1.5rem 4rem rgba(#fff, .15);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  color: #fff;
+
+  &__heading {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    border-bottom: 2px solid rgba($color-white, 1);
+  }
+
+  &__description {
+    font-size: 1.6rem;
+    padding: 1.5rem;
+    text-align: justify;
+    color: #272727;
+    letter-spacing: .1rem;
+    font-weight: 500;
+  }
+
+  &__img {
+    height: 43%;
+    width: 100%;
+  }
+
+  &__details {
+    h4 {
+      font-size: 1.6rem;
+      text-transform: uppercase;
+      letter-spacing: .3rem;
+    }
+
+  }
+
+}
