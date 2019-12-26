@@ -11,10 +11,11 @@
   padding: 0 2rem;
 }
 
-.SocialMedia>*:hover {
+.SocialMedia>* {
   text-decoration: none;
-  color: #FF3366;
-  background-color: #fff;
+  color: #073642;
+  font-weight: bolder;
+  background-color: #ffca4f;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -23,6 +24,6 @@
 }
 
 .SocialMedia a i {
-  color: #000;
+  color: #073642;
   margin-left: .7rem;
 }

@@ -1,7 +1,6 @@
 @import "default";
 
 .Skills {
-  color: $color-dark;
   background-image: linear-gradient(to right bottom,
     rgba($color-primary, 1),
     rgba($color-secondary, 1));
@@ -15,7 +14,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 5rem;
-    box-shadow: 0 0 10px $color-dark;
+    box-shadow: 0 0 10px #fff;
     @media only screen and (max-width: $bp-smallest) {
       padding: 2rem 0;
     }
@@ -36,14 +35,14 @@
       & img {
         width: 80%;
         height: 70%;
-        border: 1px solid $color-second-dark;
+        border: 1px solid $color-primary;
         text-align: center;
         border-radius: 10%;
         -webkit-border-radius: 10%;
         -moz-border-radius: 10%;
         -ms-border-radius: 10%;
         -o-border-radius: 10%;
-        box-shadow: 0 0 10px $color-dark;
+        box-shadow: 0 0 8px #fff;
         transition: all 0.3s;
         -webkit-transition: all 0.3s;
         -moz-transition: all 0.3s;
@@ -63,7 +62,7 @@
         margin-top: 1.5rem;
         letter-spacing: .4rem;
         text-transform: uppercase;
-        font-weight: 300;
+        font-weight: bolder;
       }
     }
   }
