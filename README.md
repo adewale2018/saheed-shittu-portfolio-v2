@@ -3,14 +3,16 @@
 ## `A mechanical engineering graduate turned a Frontend React Developer`
 
 
-### `This is my portfolio as a React Frontend Developer`
+### `This is the vesrion-2 of my portfolio as a React Frontend Developer`
 
-### Deployment
 
-This section has moved here: https://saheed-shittu.netlify.com
+### Tools used are:
+- HTML
+- CSS
+- React
+- Sass, etc
 
-### Love To Learn About React? Check the docs
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### You can view it here [Portfolio version-2](https://saheed-shittu-portfolio-v2.firebaseapp.com/).
+- Check out version-1 too [Portfolio version-1](https://saheed-shittu.netlify.com)
 
 To learn React, check out the [React documentation](https://reactjs.org/).
