@@ -2,7 +2,6 @@
 
 .Projects {
   min-height: 89vh;
-  color: $color-dark;
   background-image: linear-gradient(to right bottom,
       rgba($color-primary, 1),
       rgba($color-secondary, 1));
@@ -16,7 +15,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 5rem;
-    box-shadow: 0 0 10px $color-dark;
+    box-shadow: 0 0 10px #fff;
   }
 }
 
@@ -36,14 +35,16 @@
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: .2rem;
-    border-bottom: 2px solid rgba($color-white, 1);
+    background-color: $color-white;
+    margin-top: -.46rem;
+    color: $color-primary;
   }
 
   &__description {
     font-size: 1.6rem;
     padding: 1.5rem;
     text-align: justify;
-    color: #272727;
+    color: #fff;
     letter-spacing: .1rem;
     font-weight: 500;
   }

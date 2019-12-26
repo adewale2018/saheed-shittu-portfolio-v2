@@ -73,15 +73,16 @@
     }
 
     &-name {
-      background-image: linear-gradient(to right, $color-white, $color-white-1);
-      background-clip: text;
-      -webkit-background-clip: text;
-      color: transparent;
-
+      
+      color: $color-primary;
+      border-radius: .4rem;
+      background-color: $color-white;
+      font-weight: bolder;
       font-size: 2rem;
-      letter-spacing: .3rem;
+      letter-spacing: .2rem;
       text-transform: uppercase;
-      padding: .5rem 1rem;
+      padding: 0 1.5rem;
+      margin-top: 3rem;
 
       @media only screen and (max-width: $bp-larger) {
         font-size: 1.8rem;
@@ -230,3 +231,4 @@
     -webkit-animation: moveInLeft 0.5s ease-out 0.75s;
   }
 }
+
