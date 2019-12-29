@@ -16,15 +16,15 @@ function Home() {
           />
         </div>
         <div className='Home__leftside-name'>
-          <h2>Saheed Adewale Shittu</h2>
+          <h2>Saheed A. Shittu</h2>
         </div>
       </div>
       <div className='Home__rightside'>
         <h1>
           <span>A</span>
-          <span>Casual Flour-Mill Worker</span>
+          <span>Casual Flour Mill Worker</span>
           <span>Turned</span>
-          <span>React Front-end Developer</span>
+          <span>React Frontend Developer</span>
         </h1>
         <NavLink exact to='/about' className='btn btn--white btn--animated'>
           About Me

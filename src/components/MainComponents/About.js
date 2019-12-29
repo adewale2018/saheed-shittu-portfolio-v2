@@ -14,7 +14,7 @@ class About extends Component {
       {
         title: "The Coding Journey",
         body:
-          "I was a casual worker in a flour mill company before I switched to coding due to my passion for learning new technologies and web development. I was one of the recipients of Google Africa Scholarship with ALC in web development (front-end) track. Unfortunately, I didn't make it to the Udacity Nano-degree program. Despite that, I continued learning using resources from websites like Udemy, Freecodecamp, Udacity, Codecademy, W3Schools, MDN, etc. Thanks to all the instructors, mentors, twitter community and friends who have been of assistance throughtout the journey. Now, it is time to land my first job. Let's do this!"
+          "I was a casual worker in a flour mill company before I switched to coding due to my passion for learning new technologies and web development. I was one of the recipients of Google Africa Scholarship with ALC in web development (frontend) track. Unfortunately, I didn't make it to the Udacity Nano-degree program. Despite that, I continued learning using resources from websites like Udemy, Freecodecamp, Udacity, Codecademy, W3Schools, MDN, etc. Thanks to all the instructors, mentors, twitter community and friends who have been of assistance throughtout the journey. Now, it is time to land my first job. Let's do this, let's make it happen!"
       }
     ]
   };
@@ -28,7 +28,7 @@ class About extends Component {
               <img src={myImg} alt='shittu' />
             </div>
             <div className='About__container-sidebar--1'>
-              <p> A Junior (REACT) Frontend Developer</p>
+              <p> A <br/> REACT Frontend Developer</p>
             </div>
           </div>
           <div className='About__container-mainbar'>
